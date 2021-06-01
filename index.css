@@ -8,6 +8,10 @@ h1 {
     font-weight: normal;
 }
 
+#turns {
+    margin-left: auto;
+}
+
 #grid {
     margin-left:auto;
     margin-right:auto;
@@ -16,17 +20,16 @@ h1 {
 #grid TR TD{
     border:1px solid rgb(0, 0, 0);
     background: #6b726f;
-    width: 30px;
-    height: 30px;
-    /* font-size: 16pt; */
+    width: 45px;
+    height: 45px;
     text-align: center;
 }
 
-#grid tr td.clicked {
+#grid tr td.clickedBlue {
     background: blue;
 }
 
-#grid tr td.right-clicked {
+#grid tr td.clickedRed {
     background: red;
 }
 
